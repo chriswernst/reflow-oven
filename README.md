@@ -12,19 +12,34 @@
 [image7]: ./images/CircuitBoard.jpg
 [image8]: ./images/schematic.png
 [image9]: ./images/uno_front_2.jpg
+[image10]: ./images/bottom_heating.jpg
 
-![alt text][image6]
 The goal of this project is to control a two-element toaster oven for reflowing printed circuit boards with surface mount devices.
+
+###
+###
+
+![alt text][image10]
+
+###
+###
 
 Before we begin, credit is due to Whizoo.com for his walkthrough of the oven build. If you'd like a prebuilt oven controller, check out the ControlLeo on his site. 
 
-But there's so much more to learn by building it yourself! Check out his guide that I referenced while building mine: Whizoo.com/reflowoven
+But there's so much more to learn by building it yourself! Check out his [guide that I referenced while building mine.](http://www.whizoo.com/reflowoven)
+
+Mine will be a bit different, as I will not be adding a 3rd "Boost Heating Element". This guide will act as a (hopefully) succint version of his.
+
+###
 
 Let's begin.
+
+###
+
 ### Parts List:
 1. Toaster Oven
 2. K-type thermocouple
-3. MAX6675 or similar(for k type thermocouple)
+3. MAX6675 or similar(for k-type thermocouple)
 4. Arduino Uno/Nano/Pro Mini or other similar MCU
 5. 16-2 LCD screen
 6. Momentary Push Button
@@ -33,13 +48,15 @@ Let's begin.
 9. 2 3mm LEDs (5mm will work also). I used Blue/Red leds with 3 leads.
 10. Heat tape
 
+*(For those doing the math, this comes out to well under $100)*
+
 I used a generic black and decker toaster much like the one below. This toaster already has two heating elements(top and a bottom).
 
-
+###
 
 ![](http://www.whizoo.com/i/c/l/b02.jpg)
 
-
+###
 
 I used a k-type thermocouple to give us high temperature readings from the oven, and a MAX6675 module to digitize the signal into SPI:
 
@@ -78,7 +95,21 @@ Heat tape for sealing up the inside of the toaster oven:
 
 
 That should do it for parts! Let's get started on the build!
+
 ### 
 ### 
 
 ### The Build:
+
+You're going to want to start by opening up your oven and giving it a good wipe down. If it has been used, take it outside and shake out the breadcrumbs! On the inside, a Scotch brite pad, or similar, works well to get off any grease or grime.
+
+For those using the exact same Black and Decker toaster oven, I have mocked up a face plate in CAD to be printed for the front of the oven to house the electronics.
+This can be found in the `3D Models` folder on the repo. My print didn't come out perfect, but it does the job.
+
+###
+
+![alt text][image4]
+
+###
+
+### **README in Progress**

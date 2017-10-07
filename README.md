@@ -19,12 +19,13 @@ The goal of this project is to control a two-element toaster oven for reflowing 
 ###
 ###
 
+
 ![alt text][image10]
 
 ###
 ###
 
-Before we begin, credit is due to Whizoo.com for his walkthrough of the oven build. If you'd like a prebuilt oven controller, check out the ControlLeo on his site. 
+Before we begin, credit  is due to Whizoo.com for his walkthrough of the oven build. If you'd like a prebuilt oven controller, check out the ControlLeo on his site. 
 
 But there's so much more to learn by building it yourself! Check out his [guide that I referenced while building mine.](http://www.whizoo.com/reflowoven)
 

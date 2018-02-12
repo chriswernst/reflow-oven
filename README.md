@@ -102,7 +102,23 @@ That should do it for parts! Let's get started on the build!
 
 ### The Build:
 
+##### Remove Cover metal cover to remove interface knobs
+
+There are many screws around the perimeter, and you'll need to remove these to get access to the backside of the knobs, where we'll house our circuit board and relays.
+
+##### Clean out
+
 You're going to want to start by opening up your oven and giving it a good wipe down. If it has been used, take it outside and shake out the breadcrumbs! On the inside, a Scotch brite pad, or similar, works well to get off any grease or grime.
+
+##### Install thermocouple
+
+From the cavity behind where the knobs were, drill a hole to pass the thermocouple through. Mount it on the back wall of the oven using heattape
+
+##### Tape
+
+Heattape the inside of the oven as well as the inside of the front door(ideally leaving a small window to see the reflow process). Make sure to keep the tape away from the heaters. Do not be shy with the heattape -- it is crucial for holding the heat in and maintaining temperature.
+
+##### Install and Print faceplate
 
 For those using the exact same Black and Decker toaster oven, I have mocked up a face plate in CAD to be printed for the front of the oven to house the electronics.
 This can be found in the `3D Models` folder on the repo. My print didn't come out perfect, but it does the job.
